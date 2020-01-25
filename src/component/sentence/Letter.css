@@ -1,0 +1,26 @@
+.letter {
+    border-radius: 15px;
+    background-color: rgb(146, 148, 151); /* Green */
+    border: none;
+    color: #e9ba74;
+    padding: 25px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    font-family: cursive;
+    height: 20px;
+    margin: 4px 2px;
+}
+
+.blinking{
+    animation:blinkingText 1.2s infinite;
+}
+
+@keyframes blinkingText{
+    0%{     color: rgb(9, 92, 34);    }
+    49%{    color: rgb(20, 199, 29); }
+    60%{    color: rgb(70, 241, 79); }
+    99%{    color: rgb(145, 243, 150);  }
+    100%{   color: transparent;    }
+}

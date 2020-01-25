@@ -1,0 +1,45 @@
+.blinking{
+    font-size: 150px;
+    font-family: fantasy;
+    animation:blinkingText 2.0s alternate;
+}
+
+
+.wrong {
+    font-size: 25px;
+    font-family: fantasy;
+    animation:blkTextWrong 1s alternate;
+}
+
+.binkContinue {
+    font-size: 35px;
+    font-family: fantasy;
+    animation:blkTextContinue 1s alternate;
+}
+
+
+@keyframes blkTextWrong {
+    10%{    color: rgb(218, 32, 32);    }
+    49%{    color: rgb(180, 22, 16); }
+    60%{    color: rgb(133, 14, 14); }
+    99%{    color: rgb(90, 8, 8);  }
+    100%{   color: transparent;    }
+}
+
+@keyframes blkTextContinue {
+    0%{     font-size: 40px; color: rgb(247, 135, 8); }
+    10%{    color: rgb(212, 120, 14);    }
+    49%{    color: rgb(231, 199, 14); }
+    60%{    color: rgb(172, 149, 46); }
+    99%{    color: rgb(194, 206, 124);  }
+    100%{   color: transparent;    }
+}
+
+
+@keyframes blinkingText {
+    0%{     color: rgb(9, 92, 34);    }
+    49%{    color: rgb(20, 199, 29); }
+    60%{    color: rgb(70, 241, 79); }
+    99%{    color: rgb(145, 243, 150);  }
+    100%{   color: rgb(186, 238, 189);    }
+}
